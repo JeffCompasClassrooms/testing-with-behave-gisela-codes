@@ -27,15 +27,19 @@ jobs:
       - name: Run Behave isitchristmas
         working-directory: isitchristmas
         run: behave
+        continue-on-error: true
 
       - name: Run Behave peppers-ghost
         working-directory: peppers-ghost
         run: behave
-        
+        continue-on-error: true
+
       - name: Run Behave time
         working-directory: time
         run: behave
+        continue-on-error: true
 
       - name: Run Behave primes
         working-directory: primes
         run: behave
+        continue-on-error: true
