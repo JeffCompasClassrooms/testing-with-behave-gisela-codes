@@ -36,6 +36,6 @@ jobs:
         working-directory: time
         run: behave
 
-      - name: Run Behave peopleinspace
-        working-directory: peopleinspace
+      - name: Run Behave primes
+        working-directory: primes
         run: behave
